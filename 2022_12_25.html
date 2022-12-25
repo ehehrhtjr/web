@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        button{
+            width:100px;
+            height:100px;
+            text-align: center;
+            font-size:40px;
+        }
+    </style>
+    <script>
+        number1="";
+        number2="";
+        result=0;
+        
+        function one(){
+            number1+="1";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function two(){
+            number1+="2";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function three(){
+            number1+="3";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function four(){
+            number1+="4";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function five(){
+            number1+="5";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function six(){
+            number1+="6";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function seven(){
+            number1+="7";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function eight(){
+            number1+="8";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function nine(){
+            number1+="9";
+            document.getElementById("number1").innerHTML=number1;
+        }
+        function zero(){
+            number1+="0";
+            document.getElementById("number1").innerHTML=number1;
+        }
+
+    </script>
+
+</head>
+<body>
+    <button onclick="one()">1</button>
+    <button onclick="two()">2</button>
+    <button onclick="three()">3</button>
+    <button onclick="plus()">+</button><br>
+    <button onclick="four()">4</button>
+    <button onclick="five()">5</button>
+    <button onclick="six()">6</button>
+    <button onclick="minus()">-</button><br>
+    <button onclick="seven()">7</button>
+    <button onclick="eight()">8</button>
+    <button onclick="nine()">9</button>
+    <button onclick="div()">/</button><br>
+    <button>.</button>
+    <button onclick="zero()">0</button>
+    <button onclick="eq()">=</button>
+    <button onclick="mul()">*</button><br>
+    
+    
+    
+    number 1 : <label id="number1"></label><br>
+    number 2 : <label id="number2"></label><br>
+    result : <label id="result"></label>
+</body>
+</html>
